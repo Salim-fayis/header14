@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: var(--colors-white, #FFF);
+}
+
+body {
+    font-family: DM Sans;
+    background: var(--background-dark, #2F1893);
+
+
+}
+
+.nav {
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.startup {
+    color: var(--colors-white);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+}
+
+.links {
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+.link_ul {
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.link_ul a {
+    margin-right: 35px;
+}
+
+.link_ul li:first-child {
+    opacity: 0.3;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    margin-top: 7px;
+    border-radius: 100px;
+    background: var(--action-third, #E93A7D);
+
+}
+
+.buttons {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.h2 {
+    width: 424px;
+    height: 217px;
+    margin-top: 120px;
+    margin-left: 190px;
+
+}
+
+.main_div {
+    display: flex;
+}
+
+.main_h2 {
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+
+.para {
+    width: 363px;
+    margin-left: 190px;
+    margin-top: 25px;
+
+}
+
+.main_para {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.learn_more {
+    margin-left: 190px;
+    margin-top: 25px;
+}
+
+.form {
+    width: 470px;
+    height: 550px;
+    margin-top: 70px;
+    margin-left: 200px;
+    border-radius: 10px;
+    background: var(--background-light, #FFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_form {
+    background: transparent;
+}
+
+.form_heading {
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.form_h3 {
+    color: var(--colors-heading, #1E0E62);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    text-align: center;
+}
+
+.form_input {
+    width: 330px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 100px;
+    padding-left: 20px;
+    border: 2px solid var(--colors-grey, #EBEAED);
+}
+
+.form_input::placeholder {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+}
+
+.check_box {
+    margin-top: 20px;
+    display: flex;
+}
+
+.check_box_label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 15px;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+
+}
+
+.signin_button {
+    width: 330px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 100px;
+    background: var(--action-secondary, #482BE7);
+    display: flex;
+    justify-content: center;
+}
+
+.signin_btn {
+    color: var(--colors-white, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.line_and_or{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.right_line , .left_line{
+    width: 141px;
+ height: 2px;
+ margin-top: 20px;
+ background-color: var(--colors-grey, #EBEAED);
+}
+
+.line_or{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+text-align: center;
+font-size: 16px;
+font-style: normal;
+margin-top: 8px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.9;
+}
+
+.right_line{
+    margin-right: 25px;
+}
+
+.left_line{
+    margin-left: 25px;
+}
+
+.login_button{
+    width: 330px;
+height: 50px;
+margin-top: 20px;
+border-radius: 100px;
+background: var(--socials-twitter, #1DA1F2);
+display: flex;
+justify-content: center;
+}
+
+.login_btn{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.already_account{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.last_form{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+
+.last_sign_in{
+    color: var(--action-primary, #25DAC5);
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-left: 10px;
+}
